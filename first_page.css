@@ -71,7 +71,7 @@ nav{
     margin-right: 10rem;
 }
 .data h5{
-    font-size: 0rem; 
+    font-size: 2.5rem; 
     color: #548CFF;
     margin-top:10rem ;
     font-family: 'Roboto', sans-serif;
@@ -85,7 +85,7 @@ nav{
 
 }
 .data p{
-    font-size: 5rem;
+    font-size: 1.175rem;
     line-height: 1.5;
     margin-top:1.5rem;
     font-family: 'Roboto', sans-serif;
