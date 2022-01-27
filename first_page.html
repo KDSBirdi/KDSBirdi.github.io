@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <title>PortFolio</title>
+    <link href="first_page.css" rel="stylesheet">
+</head>
+<body>
+    <header id="home_section" >
+        <nav class="flex items-center ">
+            <div class="name" >KDSBirdi</div>
+            
+            <div class="links">
+                <a href="#home_section">Home</a>
+                <a href="#my_hobbies_section">My Hobbies</a>
+                <a href="#skills_section">Skills</a>
+            </div>
+        </nav>
+    </header>
+    <div class="main_pageinfo flex items-center ">
+        <div class="photo">
+            <img src="my_pic.jpg" alt="My Image">
+        </div>
+        <div class="data ">
+            <h5>Hey,I am</h5>
+            <h1>Karandeep Singh Birdi</h1>
+            <p>an Undergrad Student at NSUT of ICE branch. A very warm welcome to my PortFolio.I am just a beginner in programming and coding.I just started learning Web Development 2-3 weeks back so maybe my webpage/portfolio is not that good and this is my first ever website that i have built.
+                Voluptatem, adipisci dolorem laboriosam quaerat quisquam nihil fugiat obcaecati voluptatibus quos doloribus consequuntur natus ratione rem sunt labore dolores officia totam ducimus incidunt! Vero amet sint ipsa iure mollitia quo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam magnam quisquam corrupti iusto repellat harum. Voluptas incidunt modi fuga. Eveniet qui aliquam totam soluta ullam aliquid tempora omnis magni ut? </p>
+            
+            <div>
+                <form action="#skills_section">
+                    <button class="button_skills">Skills</button>
+                </form>
+                <form action="#my_hobbies_section">
+                    <button class="button_hobbies">My Hobbies</button>
+                </form>
+            </div>    
+        </div>
+    </div>
+    
+    <section id="my_hobbies_section">
+        <div class="hobbies_div">
+            <h1 class="flex items-center justify-center">My Hobbies</h1>
+        </div>
+        
+            <div class="four_hobbies flex items-center justify-center">
+                <div class="cricket">
+                    <img src="cricket.jpeg" alt="Cricket" id="cricket_img">
+                    <label for="cricket_img">Cricket</label>
+                </div>
+
+                <div class="drums">
+                    <img src="drums.jpg" alt="Drums" id="drums_img">
+                    <label for="drums_img">Drumming</label>
+                </div>
+
+                <div class="coding">
+                    <img src="coding.jpeg" alt="coding" id="coding_img">
+                    <label for="coding_img">Coding</label>
+                </div>
+
+                <div class="gaming">
+                    <img src="gaming.jpg" alt="Gaming" id="gaming_img">
+                    <label for="gaming_img">Gaming</label>
+                </div>
+            </div>
+        
+
+    </section>
+
+    <section id="skills_section" class="skills_editing">
+        <h1 class="skills_class flex items-center justify-center">Skills</h1>
+
+        <div class="flex items-center justify-center">
+            
+            <label for="html_progress" class="html_progress_class">HTML</label>
+            <progress id="html_progress" value="35" max="100">35%</progress>
+        </div>
+        
+        <div class="flex items-center justify-center">
+           
+            <label for="css_progress" class="css_progress_class">CSS</label>
+            <progress id="css_progress" value="47" max="100"></progress>
+        </div>
+
+        <div class="flex items-center justify-center">
+            
+            <label for="js_progress" class="js_progress_class">Javascript</label>
+            <progress id="js_progress" value="2" max="100"></progress>
+        </div>
+
+    </section>
+    
+</body>
+</html>
